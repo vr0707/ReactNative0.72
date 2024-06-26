@@ -1,0 +1,150 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.reactnativetemplate"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[:react-native-community_netinfo] /Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-79
+12-->[:react-native-community_netinfo] /Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+13-->[:react-native-community_netinfo] /Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:8:5-76
+13-->[:react-native-community_netinfo] /Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:8:22-73
+14    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+14-->[com.google.android.gms:play-services-iid:17.0.0] /Users/mac/.gradle/caches/transforms-3/d23697d3ddc319769c3d2a6565d52bbc/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+14-->[com.google.android.gms:play-services-iid:17.0.0] /Users/mac/.gradle/caches/transforms-3/d23697d3ddc319769c3d2a6565d52bbc/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+15-->[com.android.installreferrer:installreferrer:1.1.2] /Users/mac/.gradle/caches/transforms-3/7159fdde894990131f3ba6437117d8d3/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+15-->[com.android.installreferrer:installreferrer:1.1.2] /Users/mac/.gradle/caches/transforms-3/7159fdde894990131f3ba6437117d8d3/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+16
+17    <application
+17-->/Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/android/app/src/main/AndroidManifest.xml:5:5-24:19
+18        android:name="com.reactnativetemplate.MainApplication"
+18-->/Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/android/app/src/main/AndroidManifest.xml:6:7-38
+19        android:allowBackup="false"
+19-->/Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/android/app/src/main/AndroidManifest.xml:10:7-34
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.8.0] /Users/mac/.gradle/caches/transforms-3/9623e378e4dfc57c47793d0ffd25ee05/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/android/app/src/main/AndroidManifest.xml:8:7-41
+22        android:label="@string/app_name"
+22-->/Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/android/app/src/main/AndroidManifest.xml:7:7-39
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/android/app/src/main/AndroidManifest.xml:9:7-52
+24        android:theme="@style/AppTheme" >
+24-->/Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/android/app/src/main/AndroidManifest.xml:11:7-38
+25        <activity
+25-->/Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/android/app/src/main/AndroidManifest.xml:12:7-23:18
+26            android:name="com.reactnativetemplate.MainActivity"
+26-->/Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/android/app/src/main/AndroidManifest.xml:13:9-37
+27            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+27-->/Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/android/app/src/main/AndroidManifest.xml:15:9-118
+28            android:exported="true"
+28-->/Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/android/app/src/main/AndroidManifest.xml:18:9-32
+29            android:label="@string/app_name"
+29-->/Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/android/app/src/main/AndroidManifest.xml:14:9-41
+30            android:launchMode="singleTask"
+30-->/Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/android/app/src/main/AndroidManifest.xml:16:9-40
+31            android:windowSoftInputMode="adjustResize" >
+31-->/Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/android/app/src/main/AndroidManifest.xml:17:9-51
+32            <intent-filter>
+32-->/Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/android/app/src/main/AndroidManifest.xml:19:9-22:25
+33                <action android:name="android.intent.action.MAIN" />
+33-->/Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/android/app/src/main/AndroidManifest.xml:20:13-65
+33-->/Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/android/app/src/main/AndroidManifest.xml:20:21-62
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/android/app/src/main/AndroidManifest.xml:21:13-73
+35-->/Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/android/app/src/main/AndroidManifest.xml:21:23-70
+36            </intent-filter>
+37        </activity>
+38        <activity android:name="com.masteratul.exceptionhandler.DefaultErrorScreen" >
+38-->[:react-native-exception-handler] /Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/node_modules/react-native-exception-handler/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-9:20
+38-->[:react-native-exception-handler] /Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/node_modules/react-native-exception-handler/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:8:19-84
+39        </activity>
+40
+41        <provider
+41-->[:react-native-webview] /Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-16:20
+42            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+42-->[:react-native-webview] /Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-83
+43            android:authorities="com.reactnativetemplate.fileprovider"
+43-->[:react-native-webview] /Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-64
+44            android:exported="false"
+44-->[:react-native-webview] /Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-37
+45            android:grantUriPermissions="true" >
+45-->[:react-native-webview] /Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-47
+46            <meta-data
+46-->[:react-native-webview] /Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-15:63
+47                android:name="android.support.FILE_PROVIDER_PATHS"
+47-->[:react-native-webview] /Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:17-67
+48                android:resource="@xml/file_provider_paths" />
+48-->[:react-native-webview] /Users/mac/Documents/Rajeswaran/businessDirectoryMediaPartners/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:17-60
+49        </provider>
+50
+51        <activity
+51-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-3/5b96e62b05f95da8d3a5ab6208c82b4e/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+52            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+52-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-3/5b96e62b05f95da8d3a5ab6208c82b4e/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+53            android:exported="false"
+53-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-3/5b96e62b05f95da8d3a5ab6208c82b4e/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+54            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+54-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-3/5b96e62b05f95da8d3a5ab6208c82b4e/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+55
+56        <meta-data
+56-->[com.google.android.gms:play-services-basement:17.0.0] /Users/mac/.gradle/caches/transforms-3/8ba0bd3b0a22dcecb9dd228f042440f6/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+57            android:name="com.google.android.gms.version"
+57-->[com.google.android.gms:play-services-basement:17.0.0] /Users/mac/.gradle/caches/transforms-3/8ba0bd3b0a22dcecb9dd228f042440f6/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+58            android:value="@integer/google_play_services_version" />
+58-->[com.google.android.gms:play-services-basement:17.0.0] /Users/mac/.gradle/caches/transforms-3/8ba0bd3b0a22dcecb9dd228f042440f6/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+59
+60        <provider
+60-->[androidx.emoji2:emoji2:1.2.0] /Users/mac/.gradle/caches/transforms-3/259206a491dfa4b8b6052b2b1c41d979/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+61            android:name="androidx.startup.InitializationProvider"
+61-->[androidx.emoji2:emoji2:1.2.0] /Users/mac/.gradle/caches/transforms-3/259206a491dfa4b8b6052b2b1c41d979/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+62            android:authorities="com.reactnativetemplate.androidx-startup"
+62-->[androidx.emoji2:emoji2:1.2.0] /Users/mac/.gradle/caches/transforms-3/259206a491dfa4b8b6052b2b1c41d979/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+63            android:exported="false" >
+63-->[androidx.emoji2:emoji2:1.2.0] /Users/mac/.gradle/caches/transforms-3/259206a491dfa4b8b6052b2b1c41d979/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+64            <meta-data
+64-->[androidx.emoji2:emoji2:1.2.0] /Users/mac/.gradle/caches/transforms-3/259206a491dfa4b8b6052b2b1c41d979/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+65                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+65-->[androidx.emoji2:emoji2:1.2.0] /Users/mac/.gradle/caches/transforms-3/259206a491dfa4b8b6052b2b1c41d979/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+66                android:value="androidx.startup" />
+66-->[androidx.emoji2:emoji2:1.2.0] /Users/mac/.gradle/caches/transforms-3/259206a491dfa4b8b6052b2b1c41d979/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+67            <meta-data
+67-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/mac/.gradle/caches/transforms-3/b1c537e6049df5a2dcb1a9b20b1a8868/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+68                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+68-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/mac/.gradle/caches/transforms-3/b1c537e6049df5a2dcb1a9b20b1a8868/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+69                android:value="androidx.startup" />
+69-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/mac/.gradle/caches/transforms-3/b1c537e6049df5a2dcb1a9b20b1a8868/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+70        </provider>
+71
+72        <meta-data
+72-->[com.facebook.soloader:soloader:0.10.5] /Users/mac/.gradle/caches/transforms-3/ec3312a013bd7d8a70466a1977a1dba4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+73            android:name="com.facebook.soloader.enabled"
+73-->[com.facebook.soloader:soloader:0.10.5] /Users/mac/.gradle/caches/transforms-3/ec3312a013bd7d8a70466a1977a1dba4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+74            android:value="false" />
+74-->[com.facebook.soloader:soloader:0.10.5] /Users/mac/.gradle/caches/transforms-3/ec3312a013bd7d8a70466a1977a1dba4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+75
+76        <activity
+76-->[com.jakewharton:process-phoenix:2.1.2] /Users/mac/.gradle/caches/transforms-3/a877e6172e046c3f80f00172ae8a16ff/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:8:9-12:75
+77            android:name="com.jakewharton.processphoenix.ProcessPhoenix"
+77-->[com.jakewharton:process-phoenix:2.1.2] /Users/mac/.gradle/caches/transforms-3/a877e6172e046c3f80f00172ae8a16ff/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:9:13-73
+78            android:exported="false"
+78-->[com.jakewharton:process-phoenix:2.1.2] /Users/mac/.gradle/caches/transforms-3/a877e6172e046c3f80f00172ae8a16ff/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:10:13-37
+79            android:process=":phoenix"
+79-->[com.jakewharton:process-phoenix:2.1.2] /Users/mac/.gradle/caches/transforms-3/a877e6172e046c3f80f00172ae8a16ff/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:11:13-39
+80            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+80-->[com.jakewharton:process-phoenix:2.1.2] /Users/mac/.gradle/caches/transforms-3/a877e6172e046c3f80f00172ae8a16ff/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:12:13-72
+81    </application>
+82
+83</manifest>
